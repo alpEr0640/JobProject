@@ -21,11 +21,11 @@
  ```Client``` klasörü içerisinde ```npm start``` komutu kullanılarak proje ayağa kaldırın.
 
 ## projenin görselleri
- 
-![Ekran görüntüsü 2024-09-24 180822](https://github.com/user-attachments/assets/93424784-cf2e-4641-bdaa-f04d13a60cf4)
 
-![Ekran görüntüsü 2024-09-24 180852](https://github.com/user-attachments/assets/2c026afe-8619-440f-950c-e8f9e8af6996)
+ ![Ekran görüntüsü 2024-09-24 180822](https://github.com/user-attachments/assets/76067bb2-5fc8-464c-a315-0ded264456f0)
 
-![Ekran görüntüsü 2024-09-24 180912](https://github.com/user-attachments/assets/abb7c006-5c9a-473f-b574-941fbd48e99d)
+![Ekran görüntüsü 2024-09-24 180852](https://github.com/user-attachments/assets/0f45bcb8-9c6b-4a8d-94ff-9f432ca5c1b3)
 
-![Ekran görüntüsü 2024-09-24 180949](https://github.com/user-attachments/assets/0bca09af-2e91-44f4-b115-a58154670524)
+![Ekran görüntüsü 2024-09-24 180912](https://github.com/user-attachments/assets/b2128941-8125-4177-9ff9-bcfb92d348a3)
+
+![Ekran görüntüsü 2024-09-24 180949](https://github.com/user-attachments/assets/dcfa25d2-4ce7-418a-b282-09d38a35377f)
