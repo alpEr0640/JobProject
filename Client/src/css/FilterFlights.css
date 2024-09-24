@@ -1,0 +1,191 @@
+.filterFlightsContainer {
+  background-color: white;
+  height: auto;
+  min-height: 20vh;
+  margin: 1rem 0 1rem 3rem;
+  border-radius: 20px;
+}
+/* Header Css Başlangıç*/
+.filterFlightsContentHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1.8rem;
+}
+.filterFlightsHeaderLeft{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    
+}
+.filterFlightsHeaderLeft i,.filterFlightsHeaderLeft span  {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+.filterFlightsHeaderRight button {
+  height: 3rem;
+  min-width: 10rem;
+  border: none;
+  margin: 1rem 0;
+}
+#roundTrip {
+  color: #4507ad;
+  background-color: rgb(224, 217, 217);
+  border-radius: 10px 0 0 10px;
+  font-size: 1rem;
+  font-weight: normal;
+  cursor: pointer;
+}
+#oneWay {
+  color: #4507ad;
+  background-color: rgb(224, 217, 217);
+  margin-right: 1rem;
+  border-radius: 0 10px 10px 0;
+  font-size: 1rem;
+  font-weight: normal;
+    cursor: pointer;
+}
+.tripActive {
+  background-color: #4507ad !important;
+  color: rgb(224, 217, 217) !important;
+  font-weight: normal !important;
+}
+/* body css başlangıç*/
+.filterFlightsContentBody {
+  display: flex;
+}
+.leftInputs,
+.rightInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.to {
+  margin: 1rem 1rem 1rem 0;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  border-radius: 0 20px 20px 0;
+  border: 2px solid rgb(187, 180, 180);
+}
+.from {
+  margin: 1rem 5px 1rem 0;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  border: 2px solid rgb(187, 180, 180);
+  border-radius: 20px 0 0 20px;
+}
+
+.to i,
+.from i {
+  margin-left: 1rem;
+  color: #4507ad;
+  width: 10%;
+}
+
+.to select,
+.from input {
+  outline: none;
+  height: 2.7rem;
+  border: none;
+  width: 90%;
+  font-size: 1rem;
+  font-weight: 700;
+  text-indent: 0.5rem;
+}
+.to select {
+  border-radius: 0 20px 20px 0;
+}
+
+.startDate {
+  margin: 1rem 5px 1rem 0;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  border: 1px solid;
+  border-radius: 20px 0 0 20px;
+  border: 2px solid rgb(187, 180, 180);
+}
+
+.endDate {
+  margin: 1rem 1rem 1rem 0;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  border: 1px solid;
+  border-radius: 0 20px 20px 0;
+  border: 2px solid rgb(187, 180, 180);
+}
+
+.startDate input,
+.endDate input {
+  outline: none;
+  height: 2.7rem;
+  border: none;
+  width: 90%;
+  font-size: 1rem;
+  font-weight: 700;
+  text-indent: 0.5rem;
+  border-radius: 0 20px 20px 0;
+}
+
+.startDate i,
+.endDate i {
+  margin-left: 1rem;
+  color: #4507ad;
+  width: 10%;
+}
+ /* Button css Başlangıcı*/
+
+ .filterFlightsContentButton{
+    width: 30%;
+    padding: 1rem ;
+ }
+
+.filterFlightsContentButton button {
+    height: 3rem;
+    margin-left: 1rem;
+    width: 10rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #4507ad;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width:975px){
+  .filterFlightsContainer{
+    margin-right: 1rem;
+  }
+  .filterFlightsContentHeader{
+  
+    display: flex;
+    flex-direction: column;
+  }
+  .filterFlightsHeaderLeft{
+    justify-content: center;
+  }
+  .filterFlightsHeaderRight{
+    display: flex;
+    justify-content: center;
+  }
+  .filterFlightsContentBody {
+    display: flex;
+    flex-direction: column;
+  }
+.leftInputs, .rightInputs{
+  width: 100%;
+}
+.filterFlightsContentButton{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+}

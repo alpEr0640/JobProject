@@ -1,0 +1,219 @@
+.myFlightsContainer {
+  min-height: 90vh;
+  padding-top: 2rem;
+  width: 100%;
+  background-color: rgb(224, 217, 217);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.myFlightsContent {
+  margin-top: 2rem;
+  width: 95%;
+  background-color: white;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.myFlightsContent:last-child {
+  margin-bottom: 2rem;
+}
+.myFlightsLeft {
+  width: 5%;
+}
+.myFlightsLeft img {
+  margin: 1rem 0 0 1rem;
+  height: 30%;
+  width: auto;
+
+}
+.myFlightsMiddle {
+  display: flex;
+  margin: 0 1rem;
+  flex-direction: column;
+  width: 80%;
+}
+.myFlightsHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 1rem;
+  height: 8vh;
+  font-size: 3rem;
+  font-weight: normal;
+}
+.myFlightsBody {
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.myFlightsBody div {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.myFlightsBodyLeft {
+  min-width: 200px;
+}
+.myFlightsBodyRight {
+  min-width: 200px;
+  display: flex;
+  justify-content: start;
+}
+
+.myFlightsBodyMiddle {
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.myFlightsBodyMiddle span {
+  margin: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.myFlightsBodyMiddle span i {
+  margin-right: 0.5rem;
+}
+.myFlightsRight {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.checkIn {
+  display: flex;
+  flex-direction: column;
+}
+.checkIn span {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #4507ad;
+}
+.checkIn span:first-child {
+  border-bottom: 2px solid #4507ad;
+  margin-bottom: 0.5rem;
+}
+
+.checkInButton {
+  margin: 0.4rem 0 0 0;
+}
+.checkInButton button {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #b81010;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (max-width: 975px) {
+  .myFlightsHeader{
+    font-size: 2rem;
+  }
+  .myFlightsBody div {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .checkIn span{
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  .checkInButton button{
+    font-size: 1rem;
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (max-width:650px){
+  .myFlightsContent{
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .myFlightsLeft{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: start;
+  }
+  .myFlightsLeft img {
+    margin: 1rem 0 0 1rem;
+    height: 100%;
+  }
+  .myFlightsMiddle{
+    height: 40%;
+    width: 90%;
+    justify-content: space-between;
+  }
+  .myFlightsHeader{
+    
+    margin-bottom: 1rem;
+    height: 50%;
+    padding: 1rem 0 1rem 1rem;
+    justify-content: space-between;
+  }
+  .myFlightsBody{
+    height: 50%;
+    justify-content: space-between;
+  
+  }
+  .myFlightsBodyLeft{
+    min-width: 30%;
+  }
+  .myFlightsBodyMiddle{
+    flex-direction: row;
+    min-width: 30%;
+  }
+  .myFlightsBodyRight{
+    min-width: 30%;
+  }
+  .myFlightsRight{
+    min-width: auto;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .myFlightsRight{
+    height: 30%;
+    width: 100%;
+    display: flex;
+  }
+ 
+  .checkIn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin:1rem 0 0 2rem;
+  }
+  .checkIn span{
+    margin: 0 0.1rem;
+  }
+  .checkIn span:first-child{
+    border: none;
+  }
+  .checkInButton{
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    margin: 0 2rem 1rem 0;
+    
+  }
+  .checkInButton button{
+    width: 30px;
+    height: 30px;
+  }
+  
+}

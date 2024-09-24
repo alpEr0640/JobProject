@@ -1,0 +1,89 @@
+.navBar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2fr;
+  background-color: rgb(224, 217, 217);
+}
+
+.navBarLeftContent {
+  cursor: pointer;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  padding-left: 3rem;
+  align-items: center;
+}
+.navBarLeftContent p {
+  height: 5vh;
+  margin-left: 1rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+.navBarImage {
+  height: 5vh;
+  width: auto;
+}
+
+.navBarRightContent {
+  width: 50%;
+}
+
+.navBarRightContent ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: end;
+}
+
+.navBarRightContent ul li {
+  width: auto;
+  height: 100%;
+  display: flex;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navBarRightContent ul li i {
+    color: #4507AD;
+  padding: 0 0.8rem;
+}
+
+.navBarRightContent ul li:last-child {
+  padding-left: 2rem;
+}
+
+.navBarRightContent ul li:last-child img{
+  
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height:2rem;
+}
+
+@media screen and (max-width: 975px) {
+
+  .navBarRightContent ul li span{
+  display: none;    
+  }
+ 
+
+  .navBarLeftContent {
+    display: flex;
+  }
+
+  
+  .navBarLeftContent p {
+    display: block;
+  }
+}
